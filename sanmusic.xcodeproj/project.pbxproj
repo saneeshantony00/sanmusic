@@ -16,6 +16,9 @@
 		D17F309425AFC9A3000C80E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17F309225AFC9A3000C80E0 /* LaunchScreen.storyboard */; };
 		D17F309F25AFC9A4000C80E0 /* sanmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F309E25AFC9A4000C80E0 /* sanmusicTests.swift */; };
 		D17F30AA25AFC9A4000C80E0 /* sanmusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F30A925AFC9A4000C80E0 /* sanmusicUITests.swift */; };
+		D17F30D525AFFB47000C80E0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F30D425AFFB47000C80E0 /* PlayerViewController.swift */; };
+		D1BE9CC225B016240066C897 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BE9CC025B016230066C897 /* song2.mp3 */; };
+		D1BE9CC325B016240066C897 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BE9CC125B016240066C897 /* song1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		D17F30A525AFC9A4000C80E0 /* sanmusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sanmusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17F30A925AFC9A4000C80E0 /* sanmusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanmusicUITests.swift; sourceTree = "<group>"; };
 		D17F30AB25AFC9A4000C80E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17F30D425AFFB47000C80E0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		D1BE9CC025B016230066C897 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		D1BE9CC125B016240066C897 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		D17F308325AFC9A1000C80E0 /* sanmusic */ = {
 			isa = PBXGroup;
 			children = (
+				D1BE9CC125B016240066C897 /* song1.mp3 */,
+				D1BE9CC025B016230066C897 /* song2.mp3 */,
 				D17F308425AFC9A1000C80E0 /* AppDelegate.swift */,
 				D17F308625AFC9A1000C80E0 /* SceneDelegate.swift */,
 				D17F308825AFC9A1000C80E0 /* ViewController.swift */,
@@ -109,6 +117,7 @@
 				D17F309225AFC9A3000C80E0 /* LaunchScreen.storyboard */,
 				D17F309525AFC9A3000C80E0 /* Info.plist */,
 				D17F308D25AFC9A1000C80E0 /* sanmusic.xcdatamodeld */,
+				D17F30D425AFFB47000C80E0 /* PlayerViewController.swift */,
 			);
 			path = sanmusic;
 			sourceTree = "<group>";
@@ -234,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BE9CC225B016240066C897 /* song2.mp3 in Resources */,
 				D17F309425AFC9A3000C80E0 /* LaunchScreen.storyboard in Resources */,
 				D17F309125AFC9A3000C80E0 /* Assets.xcassets in Resources */,
 				D17F308C25AFC9A1000C80E0 /* Main.storyboard in Resources */,
+				D1BE9CC325B016240066C897 /* song1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 				D17F308925AFC9A1000C80E0 /* ViewController.swift in Sources */,
 				D17F308525AFC9A1000C80E0 /* AppDelegate.swift in Sources */,
 				D17F308725AFC9A1000C80E0 /* SceneDelegate.swift in Sources */,
+				D17F30D525AFFB47000C80E0 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
